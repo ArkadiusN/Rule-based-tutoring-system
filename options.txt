@@ -1,0 +1,35 @@
+1. Yes¬2. No
+1. max, min¬2. left, right¬3. max, mid
+1. at target¬2. at the end of list¬3. both are possible
+1. O(nlogn)¬2. O(n!)¬3. O(logn)
+1. Single for loop¬2. A while loop¬3. Three for loops¬4. Two for loops but one is nested
+1. O(n^3)¬2. O(nlogn)¬3. O(n)
+1. Start¬2. End
+1. No¬2. Yes
+1. The time complexity¬2. Better performance on large arrays¬3. The way middle point is chosen
+1. recMethod(a–1,b+1)¬2. recMethod(a,b+1)–1¬3. recMethod(a+1,b)
+1. 2¬2. 8¬3. 2 and 3 
+1. 2100¬2. 6400¬3. 5040
+1. a<=b¬2. b>a¬3. b<=1¬4. b = 0¬5. a=1
+1. recMethod(a+1, b-1)¬2. recMethod(a, b-1)¬3. recMethod(a+1, b-1)¬4. recMethod(a-b, b+1)¬5. recMethod(a-b, b)
+1. recMethod(a, b+1)¬2. recMethod(a-1, b+1)¬3. recMethod(a+1, b-1)¬4. recMethod(a-1, b-1)
+1. 53¬2. 15¬3. 13 
+1. 110¬2. 120¬3. 150
+1. recMethod(a, b*2)¬2. recMethod(a-b, 1 + b)¬3. recMethod(a+b, b-1)¬4. recMethod(a-1, b)
+1. O(n^2) and O(n^1.5)¬2. O(n!) and O(n^2)¬3. O(n^2) and O(n^2)
+1. To count number of swaps¬2. To store variables that will be swapped
+1. To finish the sorting when no swaps was made¬2. To iterate as long as there are elements in the array¬3. Comparison of elements
+1. To iterate as long as there are elements in the array¬2. Comparison of elements¬3. Swapping them when it is appropriate¬4. All of the above
+1. No¬2. Yes
+1. Comparisons¬2. To keep the first sorted number in sorted part of the array¬3. To choose the stopping point of the while loop¬4. To store number that will be inserted, if it would be overwritten
+1. O(n)¬2. O(nlogn)¬3. O(n!)¬4. O(n^2)
+1. Select a number that then would be inserted to sorted part of array¬2. To “make space” to insert the element¬3. Swap numbers¬4. Compare and swap numbers
+1. For better performance on moving elements¬2. It is due to the way we iterate through the array¬3. The index before j is already sorted
+1. True¬2. False
+1. [1,7,2,0,22]¬2. [0,1,2,7,22]¬3. [1,2,0,7,22]¬4. [1,0,2,7,22]¬5. [1,2,7,0,22]
+1. True¬2. False
+1. End¬2. Middle¬3. Start
+1. Yes¬2. No
+1. [3,4,5,8,16,12,21]¬2. [3,4,5,8,12,16,21]¬3. [3,16,4,21,5,12,8]¬4. [3,16,4,21,5,8,12]
+1. [1,2,4,8,12,14,16]¬2. [1,2,12,8,4,14,16]¬3. [1,14,12,8,4,2,16]
+1. Insert the element in the second position¬2. Compare elements at index 0 and 1 and swap them if necessary¬3. Select the first minimum value and put it at the end of the array¬4. Select the first minimum value, move the elements to its left one position to the right, insert minimum in index 0

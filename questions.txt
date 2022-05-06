@@ -1,0 +1,40 @@
+Does binary search work on unsorted list?
+What are the variables needed to find value with use of binary search?
+Where does the Linear Search stop?
+What is complexity of Exponential Search? 
+In bubble sort structure, there is/are?
+What is the Big O of Insertion sort, if it is already sorted?
+Does the Linear Search goes to start of the array or the end of it?
+Would linear search return the item found?
+What differentiates the Interpolation search from standardly used Binary search?
+If you had to add two numbers together what the recursive call would look like?
+What result would you get for the recursive method recMethod(a-1, b) +1 if a = 5 and b = 3 ?
+What result would you get for the recursive method a * recMethod(a-1) if a was 7?
+What would be a base case(a stopping point for recursion) for the method recMethod(a, b-1) -1?
+What would be a recursive call for method in which once a < b it returns the a modulus b?
+How would you get a difference between value a and b when base case is a = b return 0 and the recursive method is missing?
+If you had two values where a = 34 and b =19, what would recursive method “recMethod(a-1, b-1) return?
+If you would see a recursive call such as “a * recMethod(a-1)” what would be a result of a = 5 with base case a=0?
+Which of the following would allow you to get the product between a and b value if the missing recursive call “X” was “return X + b” ?
+What is the worst and average time complexity of Bubble Sort? 
+What is the “temp” variable used for in Bubble Sort?
+What is the process of while loop for Bubble Sort? 
+What is the purpose of the inner for loop in Bubble Sort?
+Is Bubble Sort a suitable choice for large data size?
+What is the purpose of “key” in Insertion Sort?
+What is the worst case time complexity of Insertion Sort?
+What is the purpose of the while loop in Insertion Sort?
+Making a for loop for Insertion Sort where iterating variable is “j” why does it start with 1 instead of 0?
+After the Insertion Sort first for loop iteration one number is changing its position?
+Given a array of numbers [1,7,2,0,22] what is the array like after second iteration of for loop using Insertion Sort?
+Insertion Sort is good for large elements more than small elements?
+Where does the minimum elements go at first iteration of Selection Sort?
+Can Selection Sort do any better than O(n^2) in terms of time complexity?
+How would the array look like on 4th iteration of Selection Sort on array = [16,3,4,21,5,12,8] ?
+How would the array look like on 2nd iteration of Selection Sort on array = [16,14,12,8,4,2,1] ?
+What would be a description of first iteration in Selection Sort?
+
+
+
+
+ewq
