@@ -1,9 +1,13 @@
+package main;
+
 import com.deliveredtechnologies.rulebook.Fact;
 import com.deliveredtechnologies.rulebook.FactMap;
 import com.deliveredtechnologies.rulebook.NameValueReferableMap;
 import com.deliveredtechnologies.rulebook.lang.RuleBookBuilder;
 import com.deliveredtechnologies.rulebook.model.Auditor;
 import com.deliveredtechnologies.rulebook.model.RuleBook;
+import main.BinarySearchTree;
+
 import javax.swing.*; //Many components use thus "*" used.
 import java.awt.*;    //Many components use thus "*" used.
 import java.io.FileInputStream;
@@ -150,7 +154,7 @@ public class ClientMenu extends JFrame{
         }else {
             String question = questionsList.get(index).getAnswerChoices();
             String [] split = question.split("[¬]");
-            questionArea.setText("Question " + index + ".\n" + questionsList.get(index).getQuestions());
+            questionArea.setText("main.Question " + index + ".\n" + questionsList.get(index).getQuestions());
             while (choicesSplit != split.length) {
                 optionArea.append(split[choicesSplit] +"\n");
                 choicesSplit++;

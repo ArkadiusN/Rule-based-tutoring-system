@@ -1,8 +1,10 @@
+package main;
+
 import java.util.ArrayList;
 import java.util.stream.IntStream;
 
 public class Node {
-    //Variables related to Node
+    //Variables related to main.Node
     Node leftN, rightN = null;
     static int spaces = 0;
     int data;
@@ -73,7 +75,7 @@ public class Node {
      * Insert based on what the value is.
      * If node on the left/right already has a value
      * use recursive call to go deeper into correct place.
-     * @param newN new Node that should be inserted to tree.
+     * @param newN new main.Node that should be inserted to tree.
      **/
     protected void insert(Node newN){
         if (newN.data <= data) {
@@ -114,7 +116,7 @@ public class Node {
     /**
      * Print the nodes with appropriate spacing and naming in pre order.
      * Should display as (B, A, C)  or (Root, Left, Right).
-     * @param ntype type of Node.
+     * @param ntype type of main.Node.
      **/
     protected void printPreOrder (NodeType ntype){
         PrintNodeType(ntype);
@@ -134,7 +136,7 @@ public class Node {
     /**
      * Print the nodes with appropriate spacing and naming in post order.
      * Should display as (A, C, B)  or (Left, Right, Root).
-     * @param ntype type of Node.
+     * @param ntype type of main.Node.
      **/
     protected void printPostOrder (NodeType ntype){
         spaces+=1;

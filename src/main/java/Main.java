@@ -1,5 +1,6 @@
-import javax.swing.*;
+package main;
 
+import javax.swing.*;
 /**
  * Implementation of Rule-based tutoring system.
  * @author Arkadiusz Nowacki (anowa002)
@@ -8,6 +9,15 @@ import javax.swing.*;
 public class Main{
     public static void main(String[] args) {
         /* New Runnable for CLIMenu on other thread (method reference) */
-        SwingUtilities.invokeLater(ClientMenu::new);
+//        SwingUtilities.invokeLater((Runnable) clientMenu);
+
+        SwingUtilities.invokeLater(new Runnable() {
+            
+            @Override
+            public void run() {
+                ClientMenu clientMenu = new ClientMenu();
+            }
+        });
+
     }
 }
