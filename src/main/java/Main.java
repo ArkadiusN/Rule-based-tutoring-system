@@ -1,5 +1,3 @@
-package main;
-
 import javax.swing.*;
 /**
  * Implementation of Rule-based tutoring system.
